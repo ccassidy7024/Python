@@ -6,5 +6,6 @@ tank_size = 15
 distance = 600
 # Calculate miles per gallon
 mpg = distance / tank_size
-# Print the solution 
+# Print the solution of the amount of miles traveled by the amount of 
+# gallons of fuel the vehicle holds to find out how many miles per gallon you can travel
 print("Miles per gallon:", mpg)
