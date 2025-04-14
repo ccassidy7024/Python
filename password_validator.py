@@ -12,10 +12,10 @@ def valid_password(user_input):
             print("Make sure your password is between 8 and 20 characters long")
             return False
         elif user_input.isupper() is None:
-            print(f"{user_input} must contain at least one uppercase")
+            print("Password must contain at least one uppercase")
             return False
         elif user_input.islower() is None:
-            print(f"{user_input} must contain at least one uppercase")
+            print("Password must contain at least one uppercase")
             return False
         elif re.search('[0-9]', user_input) is None:
             print("Password must contain at least one number")
