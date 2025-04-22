@@ -24,7 +24,7 @@ def game(player, computer):
         elif player == "Scissors" and computer == "Paper":
                 print("\nYou lose! {computer} cuts {player}")
         else:
-              print("Let's play again!")
+              print("Nice Job, Let's play again!")
 #creates main function with try and except block in case of value or syntax errors
 def main():       
         while not game:
